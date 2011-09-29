@@ -1,5 +1,5 @@
 {if $product.products_id != ''}
-<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border: 1px solid #a8dcdf">
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border: 2px solid #e6f3f3">
     <tr>
       <td style="padding: 10px 0 10px 10px;width:120px">
         <table cellpadding="0" cellspacing="0" border="0">
@@ -31,7 +31,7 @@
   <div class="scrollWrapper">
     <div class="scrollableArea">
       {foreach from=$OtherProductsList item=other}
-      <a href="/sanpham/{$other.products_id}/chitiet" title="{$other.products_name} {number_format number=$other.products_price}VND"><img src="/product_thumb.php?f={$other.products_image}&w=auto&h=120&ma=150&cx=150&cy=150" width="150" height="150" border="0"></a>
+      <a href="/sanpham/{$other.products_id}/chitiet" title="{$other.products_name} {number_format number=$other.products_price}VND"><img src="/images/products/{$other.products_image}" width="80" height="150" border="0"></a>
       {/foreach}
     </div>
   </div>

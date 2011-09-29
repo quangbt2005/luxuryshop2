@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.20, created on 2011-09-28 11:11:17
+<?php /* Smarty version 2.6.20, created on 2011-09-29 08:28:45
          compiled from home/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'TitleBox', 'home/index.tpl', 2, false),array('function', 'number_format', 'home/index.tpl', 13, false),)), $this); ?>
@@ -12,7 +12,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'TitleBox', 
       <div style="background-color: black;" class="image_and_name_and_intro">
         <div class="image" style="background-color: black;"><a title="<?php echo $this->_tpl_vars['product']['products_name']; ?>
 " href="/sanpham/<?php echo $this->_tpl_vars['product']['products_id']; ?>
-/chitiet"><img src="http://localhost:8082/images/products/<?php echo $this->_tpl_vars['product']['products_image']; ?>
+/chitiet"><img src="/images/products/<?php echo $this->_tpl_vars['product']['products_image']; ?>
 " height="180" border="0" alt="<?php echo $this->_tpl_vars['product']['products_name']; ?>
 "></a></div>
         <div class="name_and_intro" style="background-color: black;">

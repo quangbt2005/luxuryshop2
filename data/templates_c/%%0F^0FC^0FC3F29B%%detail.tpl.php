@@ -1,9 +1,9 @@
-<?php /* Smarty version 2.6.20, created on 2011-09-29 08:25:36
+<?php /* Smarty version 2.6.20, created on 2011-09-29 08:34:48
          compiled from products/detail.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'number_format', 'products/detail.tpl', 13, false),)), $this); ?>
 <?php if ($this->_tpl_vars['product']['products_id'] != ''): ?>
-<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border: 1px solid #a8dcdf">
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border: 2px solid #e6f3f3">
     <tr>
       <td style="padding: 10px 0 10px 10px;width:120px">
         <table cellpadding="0" cellspacing="0" border="0">
@@ -46,8 +46,8 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'number_form
       <a href="/sanpham/<?php echo $this->_tpl_vars['other']['products_id']; ?>
 /chitiet" title="<?php echo $this->_tpl_vars['other']['products_name']; ?>
  <?php echo smarty_number_format(array('number' => $this->_tpl_vars['other']['products_price']), $this);?>
-VND"><img src="/product_thumb.php?f=<?php echo $this->_tpl_vars['other']['products_image']; ?>
-&w=auto&h=120&ma=150&cx=150&cy=150" width="150" height="150" border="0"></a>
+VND"><img src="/images/products/<?php echo $this->_tpl_vars['other']['products_image']; ?>
+" width="80" height="150" border="0"></a>
       <?php endforeach; endif; unset($_from); ?>
     </div>
   </div>
