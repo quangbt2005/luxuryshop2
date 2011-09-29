@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.20, created on 2011-09-29 08:34:48
+<?php /* Smarty version 2.6.20, created on 2011-09-29 08:37:28
          compiled from products/detail.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'number_format', 'products/detail.tpl', 13, false),)), $this); ?>
@@ -18,7 +18,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'number_form
 </strong></td></tr>
           <tr><td style="padding: 5px 3px 5px 5px;height:130px;" valign="top" align="left"><?php echo $this->_tpl_vars['product']['products_intro']; ?>
 </td></tr>
-          <tr><td style="padding: 5px 3px 5px 5px;color: #00ff00;" valign="top" align="left"><strong><?php echo smarty_number_format(array('number' => $this->_tpl_vars['product']['products_price']), $this);?>
+          <tr><td style="padding: 5px 3px 5px 5px;color: #00ff00;" valign="top" align="left"><strong>GIÁ: <?php echo smarty_number_format(array('number' => $this->_tpl_vars['product']['products_price']), $this);?>
 </strong></td></tr>
         </table>
       </td>
