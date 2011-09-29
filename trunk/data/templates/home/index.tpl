@@ -3,7 +3,7 @@
     {foreach from=$NewProducts item=product}
     <div class="product">
       <div style="background-color: black;" class="image_and_name_and_intro">
-        <div class="image" style="background-color: black;"><a title="{$product.products_name}" href="/sanpham/{$product.products_id}/chitiet"><img src="http://localhost:8082/images/products/{$product.products_image}" height="180" border="0" alt="{$product.products_name}"></a></div>
+        <div class="image" style="background-color: black;"><a title="{$product.products_name}" href="/sanpham/{$product.products_id}/chitiet"><img src="/images/products/{$product.products_image}" height="180" border="0" alt="{$product.products_name}"></a></div>
         <div class="name_and_intro" style="background-color: black;">
           <div class="product_name">{$product.products_name}</div>
           <div class="product_intro" style="background-color: black">{$product.products_intro}</div>
