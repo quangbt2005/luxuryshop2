@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.20, created on 2011-09-28 11:08:51
+<?php /* Smarty version 2.6.20, created on 2011-09-29 08:25:36
          compiled from products/detail.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'number_format', 'products/detail.tpl', 13, false),)), $this); ?>
@@ -7,8 +7,8 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'number_form
     <tr>
       <td style="padding: 10px 0 10px 10px;width:120px">
         <table cellpadding="0" cellspacing="0" border="0">
-          <tr><td align="left"><img src="/product_thumb.php?f=<?php echo $this->_tpl_vars['product']['products_image']; ?>
-&w=auto&h=400&ma=280&cx=290&cy=410" width="290" border="0" vspace="0" hspace="0" style="padding:0;margin:0;float:left;" alt="<?php echo $this->_tpl_vars['product']['products_name']; ?>
+          <tr><td align="left"><img src="/images/products/<?php echo $this->_tpl_vars['product']['products_image']; ?>
+" width="290" border="0" vspace="0" hspace="0" style="padding:0;margin:0;float:left;" alt="<?php echo $this->_tpl_vars['product']['products_name']; ?>
 "></td></tr>
         </table>
       </td>
