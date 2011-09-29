@@ -3,7 +3,7 @@
     <tr>
       <td style="padding: 10px 0 10px 10px;width:120px">
         <table cellpadding="0" cellspacing="0" border="0">
-          <tr><td align="left"><img src="/images/products/{$product.products_image}" width="290" border="0" vspace="0" hspace="0" style="padding:0;margin:0;float:left;" alt="{$product.products_name}"></td></tr>
+          <tr><td align="left"><img src="/product_thumb.php?f={$product.products_image}&w=auto&h=500&ma=280&cx=290&cy=510&trsp=1" width="290" border="0" vspace="0" hspace="0" style="padding:0;margin:0;float:left;" alt="{$product.products_name}"></td></tr>
         </table>
       </td>
       <td valign="top" style="padding: 0;width: 450px;" align="left">
@@ -31,7 +31,7 @@
   <div class="scrollWrapper">
     <div class="scrollableArea">
       {foreach from=$OtherProductsList item=other}
-      <a href="/sanpham/{$other.products_id}/chitiet" title="{$other.products_name} {number_format number=$other.products_price}VND"><img src="/images/products/{$other.products_image}" width="80" height="150" border="0"></a>
+      <a href="/sanpham/{$other.products_id}/chitiet" title="{$other.products_name} {number_format number=$other.products_price}VND"><img src="/product_thumb.php?f={$other.products_image}&w=auto&h=120&ma=150&cx=150&cy=150&trsp=1" width="150" height="150" border="0"></a>
       {/foreach}
     </div>
   </div>
